@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 const cartScreen=document.querySelector('.qunatity');
-const imgScreen=document.querySelector('.img_1');
+const imgScreen=document.querySelector('.img-1');
 const selctImg=document.querySelectorAll('.img');
 let onInCart;
 const addToCart=document.querySelector('.add_cart');
