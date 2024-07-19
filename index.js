@@ -1,6 +1,6 @@
-
+document.addEventListener("DOMContentLoaded", function() {
 const cartScreen=document.querySelector('.qunatity');
-const imgScreen=document.querySelector('.img_1');
+const imgScreen=document.querySelector('.img-1');
 const selctImg=document.querySelectorAll('.img');
 let onInCart;
 const addToCart=document.querySelector('.add_cart');
@@ -11,7 +11,7 @@ let cartBuffer=0;
 
 function addElement(){
     const spanElement=document.createElement("span");
-    const current=document.querySelector('.nav_cart');
+    const current=document.querySelector('.nav-cart');
 
 
     spanElement.className="cart--bubble";
@@ -55,7 +55,7 @@ function addCart(innerText){
 function init() {
 
     document
-    .querySelector(".item_quantity")
+    .querySelector(".item-quantity")
     .addEventListener("click", function (event) {
         buttonClick(event.target.value);
              
@@ -82,3 +82,5 @@ function init() {
 }
 
 init();
+
+});
